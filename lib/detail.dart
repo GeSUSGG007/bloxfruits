@@ -143,7 +143,7 @@ class _DetailPageState extends State<DetailPage> {
         ],
         // currentIndex: _selectedIndex,
         // selectedItemColor: Colors.amber[800],
-        // onTap: _onItemTapped,
+        // onTap: _onItemTapped,as
       ),
     );
   }
