@@ -11,7 +11,7 @@ class StarRating extends StatelessWidget {
     required this.value,
     required this.filledStar,
     required this.unfilledStar,
-    required this.onRatingChanged, 
+    required this.onRatingChanged,
   }) : super(key: key);
 
   @override
