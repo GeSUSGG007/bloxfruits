@@ -1,13 +1,13 @@
 # Note: In a yml each level is padded by 2 spaces
-name: Flutter
+name: Flutter_dasdada
 
 on:
   # Runs this action when you push on master
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   # Runs this when a PR against master is created
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   flutter_job:
