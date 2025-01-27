@@ -17,7 +17,8 @@ class DetailPage extends StatefulWidget {
   });
 
   @override
-  
+
+  // ignore: library_private_types_in_public_api
   _DetailPageState createState() => _DetailPageState();
 }
 
@@ -36,6 +37,7 @@ class _DetailPageState extends State<DetailPage> {
 
   Future<void> _launchUrl() async {
     if (!await launchUrl(_url)) {
+      // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('ไม่สามารถเปิดลิงก์ $_url ได้')),
       );

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 class SnackItem extends StatelessWidget {
   final String imageUrl;
+  // ignore: non_constant_identifier_names
   final String link_url;
   final String title;
   final String description;
@@ -10,6 +11,7 @@ class SnackItem extends StatelessWidget {
   const SnackItem(
       {super.key,
       required this.imageUrl,
+      // ignore: non_constant_identifier_names
       required this.link_url,
       required this.title,
       required this.description});
@@ -39,7 +41,7 @@ class SnackItem extends StatelessWidget {
                   builder: (context) => DetailPage(
                       title: title,
                       img: imageUrl,
-                      link_url: link_url,
+                      linkUrl: link_url,
                       description: description),
                 ),
               );

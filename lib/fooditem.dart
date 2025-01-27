@@ -4,12 +4,14 @@ import 'detail.dart';
 class FoodItem extends StatelessWidget {
   final String imageUrl;
   final String title;
+  // ignore: non_constant_identifier_names
   final String link_url;
   final String description;
 
   const FoodItem(
       {super.key,
       required this.imageUrl,
+      // ignore: non_constant_identifier_names
       required this.link_url,
       required this.title,
       required this.description});
@@ -39,7 +41,7 @@ class FoodItem extends StatelessWidget {
                   builder: (context) => DetailPage(
                       title: title,
                       img: imageUrl,
-                      link_url: link_url,
+                      linkUrl: link_url,
                       description: description),
                 ),
               );
