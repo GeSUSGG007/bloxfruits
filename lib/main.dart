@@ -10,6 +10,8 @@ void main() async {
 class FoodSnackApp extends StatelessWidget {
   const FoodSnackApp({super.key});
 
+  get value => null;
+
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
@@ -17,6 +19,8 @@ class FoodSnackApp extends StatelessWidget {
       home: FoodSnackPage(),
     );
   }
+
+  void increment() {}
 }
 
 class FoodSnackPage extends StatelessWidget {
