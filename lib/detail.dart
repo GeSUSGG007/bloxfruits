@@ -5,14 +5,14 @@ import 'rating.dart';
 class DetailPage extends StatefulWidget {
   final String img;
   final String title;
-  final String link_url;
+  final String LINK_URL;
   final String description;
 
   const DetailPage(
       {super.key,
       required this.title,
       required this.img,
-      required this.link_url,
+      required this.LINK_URL,
       required this.description});
 
   @override
@@ -27,7 +27,7 @@ class _DetailPageState extends State<DetailPage> {
     });
   }
 
-  late final Uri _url = Uri.parse(widget.link_url);
+  late final Uri _url = Uri.parse(widget.LINK_URL);
   void _launchUrl() async {
     if (!await launchUrl(_url)) {
       throw Exception('Could not launch $_url');
