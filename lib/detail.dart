@@ -17,6 +17,7 @@ class DetailPage extends StatefulWidget {
   });
 
   @override
+  
   _DetailPageState createState() => _DetailPageState();
 }
 
