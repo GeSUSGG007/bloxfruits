@@ -49,9 +49,6 @@ jobs:
       - name: Build APK
         run: flutter build apk
 
-      - name: Authenticate Firebase
-        run: echo "${{ secrets.FIREBASE_TOKEN }}" > firebase.json && firebase login:ci --token $(cat firebase.json)
-        
       # Upload APK to Firebase distribution
       - name: Upload APK to Firebase distribution
         uses: wzieba/Firebase-Distribution-Github-Action@v1.7.0
