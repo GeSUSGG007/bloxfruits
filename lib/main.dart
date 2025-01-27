@@ -25,45 +25,45 @@ class FoodSnackApp extends StatelessWidget {
         '/food1': (context) => DetailPage(
               title: 'ข้าวผัดกุ้ง',
               img: 'images/fff.jpg',
-              linkUrl: 'https://youtu.be/AvR_dM6qsWM?si=5yVlOHas-JmSPuDh',
+              link_url: 'https://youtu.be/AvR_dM6qsWM?si=5yVlOHas-JmSPuDh',
               description:
                   'ผัดไทยเป็นอาหารไทยที่มีชื่อเสียงไปทั่วโลก มีต้นกำเนิดในประเทศไทยและเป็นหนึ่งในอาหารที่ถือว่าเป็นสัญลักษณ์ของชาติ ผัดไทยประกอบไปด้วยเส้นก๋วยเตี๋ยวผัดกับไข่, กุ้ง, ถั่วงอก, และน้ำซอสสูตรเฉพาะ',
             ),
         '/food2': (context) => DetailPage(
               title: 'ผัดไทย',
               img: 'images/ffff.jpg',
-              linkUrl: 'https://youtu.be/AvR_dM6qsWM?si=5yVlOHas-JmSPuDh',
+              link_url: 'https://youtu.be/AvR_dM6qsWM?si=5yVlOHas-JmSPuDh',
               description:
                   'ผัดไทยเป็นอาหารไทยที่มีชื่อเสียงไปทั่วโลก มีต้นกำเนิดในประเทศไทยและเป็นหนึ่งในอาหารที่ถือว่าเป็นสัญลักษณ์ของชาติ ผัดไทยประกอบไปด้วยเส้นก๋วยเตี๋ยวผัดกับไข่, กุ้ง, ถั่วงอก, และน้ำซอสสูตรเฉพาะ',
             ),
         '/food3': (context) => DetailPage(
             title: 'แกงเขียวหวานไก่',
             img: 'images/gg.jpg',
-            linkUrl: 'https://youtu.be/eeGIrnqV7J8?si=ZQI_100Psi_G6uwo',
+            link_url: 'https://youtu.be/eeGIrnqV7J8?si=ZQI_100Psi_G6uwo',
             description:
                 'แกงเขียวหวานไก่เป็นอาหารไทยที่มีต้นกำเนิดจากภาคกลางของประเทศไทย โดยใช้เครื่องแกงเขียวหวานที่ทำจากพริกเขียว, มะเขือ, กะทิ, และสมุนไพรต่างๆ ที่มีกลิ่นหอมและรสชาติเข้มข้น'),
         '/food4': (context) => DetailPage(
             title: 'หมูกรอบ',
             img: 'images/fs.jpg',
-            linkUrl: 'https://youtu.be/96cSwQOenX8?si=YmBiBDmHrXuLADF2',
+            link_url: 'https://youtu.be/96cSwQOenX8?si=YmBiBDmHrXuLADF2',
             description:
                 'หมูกรอบเป็นอาหารไทยที่นิยมในหลายภาค โดยการนำหมูไปทอดจนกรอบและเสิร์ฟพร้อมกับน้ำจิ้มที่มีรสชาติเข้มข้น หมูกรอบถือเป็นอาหารยอดนิยมที่พบได้ในร้านอาหารและตลาดทั่วไทย'),
         '/sneck1': (context) => DetailPage(
             title: 'ขนมปังปิ้ง',
             img: 'images/pan.jpg',
-            linkUrl: 'https://youtu.be/KbK0dGwd6vc?si=mfJdfOZSuc5NIetG',
+            link_url: 'https://youtu.be/KbK0dGwd6vc?si=mfJdfOZSuc5NIetG',
             description:
                 'ขนมปังปิ้งเป็นขนมที่มีต้นกำเนิดในประเทศไทย โดยการนำขนมปังมาปิ้งจนกรอบและเสิร์ฟพร้อมเนยและน้ำตาล หรือบางครั้งจะเพิ่มท็อปปิ้งต่างๆ เช่น ช็อกโกแลตหรือสังขยา'),
         '/sneck2': (context) => DetailPage(
             title: 'ทาโกะยากิ',
             img: 'images/ta.jpg',
-            linkUrl: 'https://youtu.be/_l0XcOuI2qA?si=XNQ-hbYAgo29mPAN',
+            link_url: 'https://youtu.be/_l0XcOuI2qA?si=XNQ-hbYAgo29mPAN',
             description:
                 "ทาโกะยากิเป็นของว่างที่มีต้นกำเนิดจากประเทศญี่ปุ่น โดยจะทำจากแป้งที่มีไส้เป็นปลาหมึก (หรือที่เรียกว่า 'ทาโก') ทอดในพิมพ์เป็นรูปกลมและเสิร์ฟพร้อมซอสทาโกะยากิที่หวานและเค็ม"),
         '/sneck3': (context) => DetailPage(
             title: 'กล้วยทอด',
             img: 'images/kuay.jpg',
-            linkUrl: 'https://youtu.be/4cbkOtNNqZw?si=-0fjHjoMEjEG_lf0',
+            link_url: 'https://youtu.be/4cbkOtNNqZw?si=-0fjHjoMEjEG_lf0',
             description:
                 'กล้วยทอดเป็นขนมที่มีต้นกำเนิดในประเทศไทยและบางประเทศในเอเชียตะวันออกเฉียงใต้ โดยการนำกล้วยที่สุกแล้วไปคลุกแป้งและทอดจนกรอบ รสชาติหวานและกรอบอร่อย นิยมเป็นของว่างหรือขนมเบาๆ'),
       },

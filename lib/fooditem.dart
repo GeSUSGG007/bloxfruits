@@ -41,7 +41,7 @@ class FoodItem extends StatelessWidget {
                   builder: (context) => DetailPage(
                       title: title,
                       img: imageUrl,
-                      linkUrl: link_url,
+                      link_url: link_url,
                       description: description),
                 ),
               );
