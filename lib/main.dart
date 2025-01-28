@@ -11,7 +11,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(const FoodSnackApp());
+  runApp(const FoodSnackApp())
 }
 
 class FoodSnackApp extends StatelessWidget {
